@@ -1,5 +1,6 @@
 READ THIS :
 https://guides.github.com/activities/hello-world/#repository
+https://msdn.microsoft.com/fr-fr/library/whbyts4t.aspx
 
 (no command line is needed)
 Upload your work on your branch.
