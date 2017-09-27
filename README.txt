@@ -1,3 +1,5 @@
+COMPILE WITH : -std = c99 (enables some new notations) 
+
 READ THIS :
 https://guides.github.com/activities/hello-world/#repository
 https://msdn.microsoft.com/fr-fr/library/whbyts4t.aspx
