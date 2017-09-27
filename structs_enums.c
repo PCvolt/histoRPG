@@ -66,3 +66,14 @@ typedef struct cell_s {
 	int type; // plain, forest, house, water, mountain, wall...
 	Unit *unit;
 } Cell;
+
+int main(int argc, char **argv)
+{
+	int flags[FLAGS_ESIZE] = {0};
+	
+	GameState gamestate= {
+		.running = 1,
+		.nb_round = 0,
+		.nb_unit = NULL
+	};/*std c99 only notation, making clear the initialization of a structure*/
+}
