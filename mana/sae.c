@@ -33,9 +33,7 @@
 
 
 /* note 2
- *
- * pourquoi avoir plusieurs images par sprite, et ne pas simplement avoir une seule grosse image avec tous les sprites dedans ? §§
- *
+ * * pourquoi avoir plusieurs images par sprite, et ne pas simplement avoir une seule grosse image avec tous les sprites dedans ? §§
  * */
 
 
