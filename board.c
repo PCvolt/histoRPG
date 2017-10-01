@@ -13,14 +13,15 @@ void init_battlefield (Battlefield *bt_field, int input_width, int input_height)
 	bt_field->cells = malloc(sizeof(Cell) * (size_t) input_height);
 
 	for (int i = 0; i < input_height; i++)
+	{
+		bt_field->cells[i] = malloc(sizeof(Cell) * (size_t) input_width);
 		for (int j = 0; j < input_width; j++)
-		{
-			bt_field->cells[i] = malloc(sizeof(Cell) * (size_t) input_width);
-			bt_field->cells[i][j].unit = NULL;
-		}
+			bt_field->cells[i][j].unit = NULL;		
+	}
 	
 	random_fill_battlefield(bt_field);
 }
+
 
 void random_fill_battlefield (Battlefield *bt_field)
 {
@@ -28,6 +29,7 @@ void random_fill_battlefield (Battlefield *bt_field)
 		for (int j = 0; j < bt_field->width; j++)
 			bt_field->cells[i][j].type = rand() % TERRAIN_ESIZE;
 }
+
 
 void display_battlefield (Battlefield *bt_field)
 {
