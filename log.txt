@@ -1,0 +1,1 @@
+c99 random_map.c -o random_map.o -g -O0 -Wall -Wextra -pedantic -D_REENTRANT -I/usr/include/SDL2 
